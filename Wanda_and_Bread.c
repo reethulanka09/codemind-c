@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    float n,m,k;
+    float k,m,n;
     scanf("%f%f%f",&n,&m,&k);
     if(n/k<=m)
     printf("YES");
