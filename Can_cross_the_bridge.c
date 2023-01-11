@@ -1,8 +1,14 @@
 #include<stdio.h>
+int c(int x,int y,int z)
+{
+    int m;
+    m=(z-y)/x;
+    return m;
+}
 int main()
 {
-    int x,y,z,n;
+    int x,y,z;
     scanf("%d%d%d",&x,&y,&z);
-    n=(z-y)/x;
-    printf("%d",n);
+    int a=c(x,y,z);
+    printf("%d",a);
 }
