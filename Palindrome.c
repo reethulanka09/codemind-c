@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,r,s=0,t;
+    int n,r,s=0,i,t;
     scanf("%d",&n);
     t=n;
     while(n>0)
@@ -12,6 +12,6 @@ int main()
     }
     if(t==s)
     printf("True");
-    else 
+    else
     printf("False");
 }
